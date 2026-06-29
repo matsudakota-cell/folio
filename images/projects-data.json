@@ -1,0 +1,136 @@
+{
+  "projects": [
+    {
+      "id": "agl-business-portal",
+      "title": "AGL Business Portal — UX Research & Design",
+      "company": "AGL Energy",
+      "url": "https://www.behance.net/gallery/114298127/AGL-Business-Portal-UX-Research-Design",
+      "published": "February 26, 2021",
+      "tag": "UX Research & Design",
+      "tools": ["Figma"],
+      "tags": ["b2b", "billing", "business", "dashboard", "electricity", "energy", "gas", "portal", "reporting", "utility"],
+      "description": "End-to-end UX research and design for AGL's B2B business customer portal, featuring billing, dashboard, and energy management functionality for commercial customers.",
+      "images": 12
+    },
+    {
+      "id": "agl-solar",
+      "title": "AGL Energy — Solar Energy Usage Monitoring",
+      "company": "AGL Energy",
+      "url": "https://www.behance.net/gallery/90085389/AGL-Energy-Solar-Energy-Usage-Monitoring-UX",
+      "published": "January 2, 2020",
+      "tag": "UX / Native App",
+      "tools": ["Adobe Illustrator", "Sketch", "Axure", "InVision"],
+      "tags": ["energy", "solar", "data visualisation", "graphs", "electricity", "UX", "usage", "research", "responsive design"],
+      "description": "AGL launched revamped iOS and Android apps but the web experience still needed updating. The new native app also omitted solar feed-in viewing — a highly requested feature. This project addressed both gaps, redesigning the solar usage feature within My Account and the native app.",
+      "images": 11
+    },
+    {
+      "id": "xero-design-sprint",
+      "title": "Xero — Uplifting Role Data Quality / Design Sprint",
+      "company": "Xero",
+      "url": "https://www.behance.net/gallery/168612637/Xero-Uplifting-Role-data-quality-Design-Sprint",
+      "published": "April 18, 2023",
+      "tag": "Design Sprint",
+      "tools": ["Figma", "Miro", "Google Slides"],
+      "tags": ["accounting", "data", "design sprint", "experimental", "finance", "product", "product design", "research", "strategy", "xero"],
+      "description": "A focused design sprint to improve the quality and completeness of role data in Xero's Small Business Profile, enabling better personalisation and customer insight at scale.",
+      "images": 11
+    },
+    {
+      "id": "agl-peak-energy",
+      "title": "AGL — Peak Energy Rewards / Demand Response Program",
+      "company": "AGL Energy",
+      "url": "https://www.behance.net/gallery/79878165/AGL-Peak-Energy-Rewards-Demand-Response-Program",
+      "published": "May 7, 2019",
+      "tag": "Product Design",
+      "tools": ["Sketch", "Usertesting.com", "UsabilityHub"],
+      "tags": ["energy", "power", "electricity", "rewards", "graphs", "dashboard", "monitoring"],
+      "description": "AGL, partnering with the Australian government, worked to tweak customer behaviour to reduce energy usage during peak summer days — easing load on the power grid and reducing blackout risk. This project designed the monitoring dashboards and reward mechanics to incentivise that behaviour.",
+      "images": 8
+    },
+    {
+      "id": "agl-voice",
+      "title": "AGL Voice Assistant — Amazon Alexa / Google Assistant",
+      "company": "AGL Energy",
+      "url": "https://www.behance.net/gallery/72553967/AGL-Voice-Assistant-Amazon-Alexa-Google-Assistant",
+      "published": "November 13, 2018",
+      "tag": "Voice UI / VUI",
+      "tools": ["Dialogflow", "Microsoft Visual Studio", "Sketch"],
+      "tags": ["VUI", "voice", "assistant", "conversation", "utility", "bills", "electricity", "gas", "voice design", "speech"],
+      "description": "AGL is one of Australia's leading energy companies. This initiative established brand presence in households through voice technology — moving beyond traditional billing communications into conversational utility management via Amazon Alexa and Google Assistant.",
+      "images": 7
+    },
+    {
+      "id": "great-barrier-reef",
+      "title": "Great Barrier Reef Foundation — Website Concept",
+      "company": "Great Barrier Reef Foundation",
+      "url": "https://www.behance.net/gallery/54167209/Great-Barrier-Reef-Foundation-Website-Concept",
+      "published": "June 26, 2017",
+      "tag": "Website Concept",
+      "tools": ["Adobe Photoshop"],
+      "tags": ["marine biology", "Great Barrier Reef", "fish", "ocean", "coral", "charity", "pro-bono", "website redesign", "animals", "Australia"],
+      "description": "GBRF underwent a significant rebrand in mid-2015. This concept seized that opportunity to reimagine the website, leveraging the new logo's multiple interchangeable icons to showcase the reef's diverse lifeforms. Key challenges included simplifying a complicated site architecture while retaining all content, and designing UI that seamlessly floated over immersive content. Also featured a customisable donation mechanic.",
+      "images": 1
+    },
+    {
+      "id": "honda",
+      "title": "Honda Australia Website Re-Design",
+      "company": "Leo Burnett / Honda",
+      "url": "https://www.behance.net/gallery/22255995/Honda-Australia-Website-Re-Design",
+      "published": "December 23, 2014",
+      "tag": "Web Redesign",
+      "tools": ["Photoshop", "Illustrator"],
+      "tags": ["honda", "cars", "automobile", "website", "UX", "motorcycles", "redesign", "adaptive", "responsive"],
+      "description": "Standardised, re-architected and redesigned Honda Australia's website as they migrated to the new Adobe platform. The process involved wireframing and UX designs that created a clear user journey. The overall approach maintained an adaptive environment, reflecting research showing mobile users on-the-go have different goals to home users.",
+      "images": 14
+    },
+    {
+      "id": "carsales-payment-gateway",
+      "title": "One Membership — Carsales Payment Gateway UX Design",
+      "company": "carsales.com.au",
+      "url": "https://www.behance.net/gallery/67594139/One-Membership-Carsales-Payment-Gateway-UX-Design",
+      "published": "July 8, 2018",
+      "tag": "UX / Payment Flow",
+      "tools": ["Adobe Photoshop", "Adobe Illustrator", "Sketch", "Axure"],
+      "tags": ["payment", "credit card", "escrow", "cars", "secure payments", "finance", "buying cars", "convenient", "transaction", "classifieds"],
+      "description": "Carsales launched a platform for customers to securely make payments when buying and selling cars privately online. Starting as a pilot, the project evolved into a comprehensive reassessment of the entire payment workflow to ensure a cohesive user experience.",
+      "images": 13
+    },
+    {
+      "id": "carsales-manage-ads",
+      "title": "One Membership — Manage Ads / UX Design Overhaul",
+      "company": "carsales.com.au",
+      "url": "https://www.behance.net/gallery/58022077/One-Membership-Manage-Ads-UX-Design-overhaul",
+      "published": "October 25, 2017",
+      "tag": "UX Overhaul",
+      "tools": ["Sketch", "Axure", "UserTesting.com", "InVision"],
+      "tags": ["carsales", "automotive", "cars", "membership", "UX design", "research", "dashboard", "statistics", "charts", "classifieds"],
+      "description": "The Carsales membership area was in desperate need of an overhaul. The team tackled it incrementally, prioritising the most-used feature — ad management. This strategic choice served dual purposes: identifying active sellers and enabling tailored messaging strategies.",
+      "images": 15
+    },
+    {
+      "id": "redbook",
+      "title": "RedBook — Mechanic Inspection Application",
+      "company": "RedBook (carsales group)",
+      "url": "https://www.behance.net/gallery/57596069/RedBook-Mechanic-Inspection-Application",
+      "published": "October 10, 2017",
+      "tag": "Mobile App / UX",
+      "tools": ["Adobe Illustrator", "Adobe Photoshop", "Sketch", "Axure", "InVision"],
+      "tags": ["mechanics", "inspections", "iPad Mini", "application", "report", "car", "automotive", "valuation", "pre-purchase", "automobile"],
+      "description": "Car buyers want to inspect cars before purchase — often their second-largest financial commitment. An iPad Mini application was designed to streamline the mechanic inspection process, saving time and money while allowing transparency for both the customer and the wider business.",
+      "images": 8
+    },
+    {
+      "id": "after5",
+      "title": "After5 — Partner with Creative Folks / Concept",
+      "company": "Personal Project",
+      "url": "https://www.behance.net/gallery/67593101/After5-Parter-with-creative-folks-Concept",
+      "published": "July 6, 2018",
+      "tag": "Concept / Product",
+      "tools": ["Adobe Photoshop", "Adobe Illustrator", "Sketch"],
+      "tags": ["creatives", "side projects", "collaborate", "entrepreneur", "projects", "talent", "network", "creators", "developers", "designers"],
+      "description": "Born from frustration — 'We could have been rich if only we worked on that million dollar idea we had.' Three agency professionals built a concept platform to help creative practitioners collaborate on side projects without fear of failure. An inclusive community for action-oriented doers.",
+      "images": 10
+    }
+  ]
+}
