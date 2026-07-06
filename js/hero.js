@@ -20,6 +20,8 @@
 
   let W, H, mouse = { x: -9999, y: -9999 };
   let particles = [];
+  let running = false;
+  const DPR = Math.min(window.devicePixelRatio || 1, 2);
 
   function rand(a, b) { return a + Math.random() * (b - a); }
 
@@ -36,11 +38,15 @@
   }
 
   function resize() {
-    W = canvas.width  = hero.offsetWidth;
-    H = canvas.height = hero.offsetHeight;
+    W = hero.offsetWidth;
+    H = hero.offsetHeight;
+    canvas.width  = W * DPR;
+    canvas.height = H * DPR;
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
   }
 
   function tick() {
+    if (!running) return;
     ctx.clearRect(0, 0, W, H);
 
     // Update positions
@@ -114,5 +120,15 @@
 
   resize();
   particles = Array.from({ length: COUNT }, mkParticle);
-  tick();
+
+  // Only animate while the hero is on screen
+  new IntersectionObserver(([entry]) => {
+    const shouldRun = entry.isIntersecting;
+    if (shouldRun && !running) {
+      running = true;
+      tick();
+    } else if (!shouldRun) {
+      running = false;
+    }
+  }).observe(hero);
 })();

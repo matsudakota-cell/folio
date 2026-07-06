@@ -4,6 +4,24 @@
 const PROJECTS = [
   {
     id: 'agl-business-portal',
+    videos: [
+      { after: 7, id: 'aOxVQ08zkYA', title: 'AGL for Business portal prototype walkthrough' },
+      { after: 11, id: 'X-yXN1NJaYg', title: 'AGL for Business final UI demo' },
+    ],
+    alts: [
+      "AGL for Business cover with tablet showing portal dashboard of Telstra sites, balances and site statuses",
+      "Background slide: AGL's business portal lagged behind residential, with legacy My Sites screen shown",
+      "Research approach slide: stakeholder interviews, site visits and analysis of 15,000+ customer enquiries",
+      "Key findings: four business personas, billing structure diagrams and photo of research findings wall",
+      "Design approach slide with competitor analysis screenshots and photo of stakeholder co-design session",
+      "Four design principles: simplicity, reliability, scalability and reusability, with supporting icons",
+      "Information architecture sitemaps and flow diagrams for the portal, plus prototype introduction",
+      "Dashboard design evolution from grey wireframes to final welcome screen listing business sites",
+      "Search and filter designs for locating sites, showing filter list iterations and faceted search concept",
+      "Data visualisation screens comparing gas, solar and smart-meter electricity usage charts per site",
+      "Final UI slide: research handed to UI team using AGL's design system, pilot MVP launched January 2021",
+      "Closing slide with AGL logo reading 'AGL for Business — Thanks for viewing'"
+    ],
     title: 'AGL Business Portal',
     subtitle: 'UX Research & Design',
     company: 'AGL Energy',
@@ -29,6 +47,23 @@ const PROJECTS = [
   },
   {
     id: 'agl-solar',
+    videos: [
+      { after: 5, id: '1GjQq0ji530', title: 'Solar usage monitoring concept walkthrough' },
+      { after: 11, id: 'oEg_EomPxA0', title: 'Solar usage monitoring final design demo' },
+    ],
+    alts: [
+      "Energy Usage Monitoring cover with phone and laptop showing solar and electricity usage dashboards",
+      "Background slide comparing 2016 solar app with 2018 app that lost solar feed-in, plus project tasks",
+      "Research approach diagram: competitor analysis, solar technology, remote user testing and contextual inquiry",
+      "Co-design session outputs and sketched chart concepts answering how solar customers monitor usage",
+      "Concept exploration intro: leveraging the AGL smartphone app's established patterns for aesthetics",
+      "Wireframe evolution of the web usage page across desktop, tablet and mobile with solar credit charts",
+      "High-fidelity blue usage dashboards for desktop, tablet web and mobile web showing solar feed-in charts",
+      "Final Electricity Usage & Solar Feed-In screens with mirrored bar charts across three screen sizes",
+      "Three app concepts for solar usage charts, with the mirrored solar-versus-electricity graph outperforming",
+      "Hourly and monthly chart explorations with toggles layering cost, peak periods and temperature data",
+      "App visual designs over wireframes, including accessibility mode and a sample voiceover script"
+    ],
     title: 'Solar Energy Usage Monitoring',
     subtitle: 'UX / Native App',
     company: 'AGL Energy',
@@ -53,6 +88,16 @@ const PROJECTS = [
   },
   {
     id: 'agl-peak-energy',
+    alts: [
+      "Peak Energy Rewards cover with AGL logo and flat illustration of a city skyline in blues and teal",
+      "Slide explaining demand response and pilot-year problems with reward motivation and energy behaviour",
+      "Registration journey map from email invite through landing page, authentication and confirmation",
+      "Registration form screens for Peak Energy Rewards with validation states and thank-you confirmation",
+      "Event dashboard journey and concept exploration wireframes for SMS-triggered peak event monitoring",
+      "Customer journey exploration with wireframe flows and tablet and phone prototypes of the event dashboard",
+      "User testing slide with remote test screens and photo wall of annotated research findings",
+      "Results slide: 3,500 respondents, 1,980 participants, 500+ concurrent users and $14k saved during event"
+    ],
     title: 'Peak Energy Rewards',
     subtitle: 'Product Design',
     company: 'AGL Energy',
@@ -74,6 +119,15 @@ const PROJECTS = [
   },
   {
     id: 'agl-voice',
+    alts: [
+      "AGL Voice Skill cover showing half Amazon Echo, half Google Home with Alexa and Assistant logos",
+      "Conversation flow diagram mapping voice intents like payments, billing, usage and energy-saving tips",
+      "Why voice slide: drive digital adoption, grow AGL accounts and enter the smart home space",
+      "Persona-based sample dialog showing a voice conversation about bills across multiple properties",
+      "User testing slide with insights on utterances, feature wants and privacy, plus 'Alexa, open AGL' card",
+      "Multimodal designs: Google Assistant account-choice interaction and Alexa Show screen flow diagram",
+      "AGL Kids concept: child playing Energy Hog game on Echo, with kid-friendly definitions, games and tips"
+    ],
     title: 'Voice Assistant',
     subtitle: 'Voice UI / VUI',
     company: 'AGL Energy',
@@ -94,6 +148,22 @@ const PROJECTS = [
   },
   {
     id: 'xero-design-sprint',
+    videos: [
+      { after: 10, id: '-5E6L5BNFFE', title: 'Xero design sprint prototype walkthrough' },
+    ],
+    alts: [
+      "Cover slide: Forming Xero's Small Business Profile case study, Part 1 – Capturing Role in Business design sprint",
+      "Background text with diagram linking Person, Business and Practice entities to Xero via roles and relationships",
+      "Jigsaw puzzle illustrations showing fragmented customer data today, the next puzzle piece, and the future SB Profile",
+      "Slide explaining Role in Business value for Xero and customers, with Subscriber vs Owner diagram",
+      "Methodology slide with GV's Idea–Build–Launch–Learn loop and the sprint question on where and how to ask customers their role",
+      "Three-week sprint timeline of six phases: Understand, Define, Sketch, Decide, Prototype and Validate",
+      "Matrix of key sprint activities across Empathise, Define, Ideate, Decide, Prototype and Validate stages",
+      "Remote sprint sessions on Miro and user interviews, plus a collaborative customer journey map with drop-off data",
+      "Key results: dashboard landing identified as the best place to ask users their role, returning a structured dataset",
+      "Results slide: about 350,000 role responses in under three weeks and Xero's most successful Intercom campaign",
+      "Retrospective quote 'Success is a journey, not a destination' with reflections on the three-week sprint"
+    ],
     title: 'Uplifting Role Data Quality',
     subtitle: 'Design Sprint',
     company: 'Xero',
@@ -118,6 +188,22 @@ const PROJECTS = [
   },
   {
     id: 'honda',
+    alts: [
+      "Honda logo cover slide introducing the Honda Australia website redesign case study",
+      "Style guide showing Univers typography, red-black-grey colour palette and custom red car iconography",
+      "Honda Australia homepage design with HR-V hero banner, model highlights and shopping tools",
+      "Browse Models page listing Honda cars by category with prices, overview and showroom links",
+      "CR-V showroom page with full-width lifestyle imagery, feature sections and 2WD/4WD video",
+      "Find a Honda Dealer page with postcode search, dealer details and Melbourne map",
+      "Honda Mag page promoting issue 56 with iPad app download and past editions in PDF",
+      "Display Audio & HondaLink tech guides page with vehicle selector dropdowns and FAQ links",
+      "404 error page featuring ASIMO robot apologising, with links back to home, dealers and contact",
+      "Close-up detail of a model card: 2013 Civic Hatch with price, overview and view showroom buttons",
+      "Close-up of brand switcher menu for Honda Motorcycles, Marine and Power Equipment sites",
+      "Close-up of Jazz configurator showing transmission toggle and colour swatch options",
+      "Close-up of Browse Models mega-menu grouping cars into Compact/Sport, Sedan and Minivan/SUV",
+      "Closing slide: thanks for viewing, with link to honda.com.au/cars"
+    ],
     title: 'Honda Australia Website',
     subtitle: 'Web Redesign',
     company: 'Leo Burnett / Honda',
@@ -145,6 +231,24 @@ const PROJECTS = [
   },
   {
     id: 'carsales-payment-gateway',
+    videos: [
+      { after: 10, id: 'M-lG9axyyNQ', title: 'PayProtect payment platform prototype walkthrough' },
+    ],
+    alts: [
+      "Hero banner for carsales One Membership Part 2, Payment Platform, with a white hatchback under aurora skies",
+      "Intro text: carsales launched a pilot secure payment platform for private car sales, needing a holistic redesign",
+      "Research approach: customer complaints, competitor escrow services, remote user testing and journey mapping",
+      "Key insights: payment status communications, awareness without ad-like feel, and a native home for PayProtect",
+      "Heuristic analysis of pilot PayProtect chat UI, annotating confusion around escrow, ads and payment status",
+      "Intro to concept phase: crude mockups and low-fidelity prototypes for quick remote usability testing",
+      "Four greyscale mobile wireframes exploring PayProtect transaction page layouts and payment statuses",
+      "Wireframed email templates for buyer and seller at each escrow stage, from funds held to release and cancellation",
+      "Seven transaction status card designs, from seller initiating PayProtect through funds released and cancelled",
+      "Prototype section divider",
+      "Prototype flow map linking buyer verification, seller status and details screens, with phone showing funds transferred",
+      "Sequence of desktop PayProtect screens showing the payment journey on an iMac display",
+      "Final PayProtect tablet UI with 'What is PayProtect?' explainer video and New Payment action, carsales PayProtect logo"
+    ],
     title: 'One Membership — Payment Gateway',
     subtitle: 'UX / Payment Flow',
     company: 'carsales.com.au',
@@ -171,6 +275,26 @@ const PROJECTS = [
   },
   {
     id: 'carsales-manage-ads',
+    videos: [
+      { after: 6, id: 'Co8ftd1wvG0', title: 'Manage Ads prototype walkthrough' },
+    ],
+    alts: [
+      "Hero banner for carsales One Membership Part 1, Manage Ad, with a sports car's tail lights on a rainy city street",
+      "Intro text: overhauling legacy design and UX of the carsales membership area, starting with Manage Ads",
+      "Research approach: support team interviews, competitor analysis, site analytics and customer journey mapping",
+      "Focus areas: fix customer support woes, modernise UI with flexible layout, and increase upsell discoverability",
+      "Analysis of legacy Manage Ad page on an old laptop, flagging hidden navigation, buried stats and no pause option",
+      "Concept intro: quick tissue sketches mixed with rapid prototyping for continuous testing and iteration",
+      "Greyscale desktop wireframes of ad dashboard, performance stats, photo upload and upgrade screens",
+      "Collage of mobile mockups for managing a car ad, including ad views chart and improvement tools",
+      "Redesigned dashboard greeting the seller with listed cars, ad status badges and an instant offer card",
+      "Ad details page with pause and mark-as-sold actions, plus upsells like Full Vehicle Inspection Report",
+      "Ad performance dashboard comparing views, enquiries, saves and calls against similar cars, with pricing insights",
+      "Ad views modal charting weekly views against search results, with an upsell for a history report",
+      "Edit ad screen with drag-to-reorder photos and a prompt showing ad quality rising 11% with more photos",
+      "Vehicle inspection upsell with ad quality tooltip, shown across desktop screens on an iMac",
+      "Closing slide: final Manage Ad tablet UI with ad performance stats under the carsales One Membership logo"
+    ],
     title: 'One Membership — Manage Ads',
     subtitle: 'UX Overhaul',
     company: 'carsales.com.au',
@@ -199,6 +323,19 @@ const PROJECTS = [
   },
   {
     id: 'redbook',
+    videos: [
+      { after: 5, id: '9HU11gxCivU', title: 'RedBook mechanic inspection app prototype demo' },
+    ],
+    alts: [
+      "RedBook Mechanic Inspections cover: iPad app for mobile car inspections surrounded by mechanic's tools",
+      "Problem and analysis slide covering competitor research, mechanic interviews and field observation",
+      "Key pain-points list: connectivity limits, third-party survey app, linear inspection flow and accessibility needs",
+      "Low-fidelity iPad wireframes exploring scheduling dashboard, inspection commenting and landscape layouts",
+      "Section heading slide: tested prototype and initial UI",
+      "Visual design concept on iPad Minis: accessibility, dynamic weather, iOS patterns and send-to-phone feature",
+      "iPad screens showing standardised star ratings, generated comments, flexible steps and appointment map view",
+      "Closing slide on an iPad corner: thanks for viewing, additional screens"
+    ],
     title: 'Mechanic Inspection Application',
     subtitle: 'Mobile App / UX',
     company: 'RedBook',
@@ -220,6 +357,9 @@ const PROJECTS = [
   },
   {
     id: 'great-barrier-reef',
+    alts: [
+      "Great Barrier Reef Foundation website concept: long-scroll pages with coral and marine life photography on tablet and phone"
+    ],
     title: 'Website Concept',
     subtitle: 'Pro Bono / Website Concept',
     company: 'Great Barrier Reef Foundation',
@@ -234,6 +374,18 @@ const PROJECTS = [
   },
   {
     id: 'after5',
+    alts: [
+      "After5 title slide on black: concept for partnering with like-minded folks, a design exploration",
+      "Problem slide quoting 'Everyone is talking about it. No one is getting it done' about unstarted side projects",
+      "Concept slide: build an inclusive community of doers, with an early mobile wireframe of a project matching card",
+      "Exploration slide with After5 logo sketches: a focused platform for creatives to partner regardless of experience",
+      "Three bold black-and-pink mobile screens: home with post/find project actions, browse feed and user profile",
+      "Mobile screens for a full project post, a 140-character reply pitch, and a prompt to post your first project",
+      "Colour-coded After5 role badges for artist, animator, editor, designer, developer, photographer and more",
+      "Responsive After5 browse screen across laptop, tablet and phone with role filter and highlighted project blurb",
+      "After5 applicant reply screens shown on a tablet inbox and a phone on a marble surface",
+      "Closing slide on black: After5 conceptual design exercise, thanks for viewing"
+    ],
     title: 'After5 — Creative Partner Platform',
     subtitle: 'Concept / Product',
     company: 'Personal Project',
@@ -279,12 +431,12 @@ function buildLightbox() {
   lb.innerHTML = `
     <div class="lb__backdrop"></div>
     <div class="lb__shell">
-      <button class="lb__close" aria-label="Close project">&times;</button>
       <button class="lb__nav lb__nav--prev" aria-label="Previous project">&#8592;</button>
       <button class="lb__nav lb__nav--next" aria-label="Next project">&#8594;</button>
 
       <div class="lb__inner">
         <aside class="lb__info">
+          <button class="lb__close" aria-label="Close project">&#8592; Back</button>
           <p class="lb__company"></p>
           <h2 class="lb__title"></h2>
           <p class="lb__subtitle"></p>
@@ -339,7 +491,7 @@ function buildLightbox() {
 /* ============================================================
    OPEN / CLOSE
    ============================================================ */
-function openLightbox(projectId) {
+function openLightbox(projectId, pushState = true) {
   const idx = PROJECTS.findIndex(p => p.id === projectId);
   if (idx === -1) return;
   currentProjectIndex = idx;
@@ -349,16 +501,34 @@ function openLightbox(projectId) {
   lb.removeAttribute('hidden');
   document.body.style.overflow = 'hidden';
   lb.querySelector('.lb__close').focus();
+
+  // Push a history entry so the back button closes the lightbox
+  if (pushState) {
+    history.pushState({ lightbox: projectId }, '', `#project/${projectId}`);
+  }
 }
 
-function closeLightbox() {
+function closeLightbox(popState = true) {
   const lb = document.getElementById('lightbox');
   lb.setAttribute('hidden', '');
   document.body.style.overflow = '';
   // Return focus to the card that opened it
   const activeCard = document.querySelector(`.project-card[data-project="${PROJECTS[currentProjectIndex].id}"]`);
   if (activeCard) activeCard.focus();
+
+  // Clean up the URL hash without adding another history entry
+  if (popState && location.hash.startsWith('#project/')) {
+    history.pushState(null, '', location.pathname + location.search);
+  }
 }
+
+// Back button support — intercept popstate and close lightbox instead
+window.addEventListener('popstate', (e) => {
+  const lb = document.getElementById('lightbox');
+  if (lb && !lb.hasAttribute('hidden')) {
+    closeLightbox(false); // already popped, don't push again
+  }
+});
 
 function navigateProject(dir) {
   currentProjectIndex = (currentProjectIndex + dir + PROJECTS.length) % PROJECTS.length;
@@ -386,11 +556,22 @@ function renderProject(idx) {
 
   // Images
   const imagesEl = lb.querySelector('.lb__images');
-  imagesEl.innerHTML = p.images.map((src, i) => `
+  imagesEl.innerHTML = p.images.map((src, i) => {
+    const img = `
     <div class="lb__img-wrap">
-      <img src="${src}" alt="${p.title} — image ${i + 1}" loading="${i === 0 ? 'eager' : 'lazy'}" />
-    </div>
-  `).join('');
+      <img src="${src}" alt="${(p.alts && p.alts[i]) || `${p.title} — image ${i + 1}`}" loading="${i === 0 ? 'eager' : 'lazy'}" />
+    </div>`;
+    const vids = (p.videos || [])
+      .filter(v => v.after === i + 1)
+      .map(v => `
+    <div class="lb__video-wrap">
+      <iframe src="https://www.youtube-nocookie.com/embed/${v.id}?rel=0&modestbranding=1"
+        title="${v.title}" loading="lazy" allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    </div>`)
+      .join('');
+    return img + vids;
+  }).join('');
 
   // Counter
   lb.querySelector('.lb__counter').textContent = `${idx + 1} / ${PROJECTS.length}`;
@@ -412,6 +593,21 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeLightbox();
   if (e.key === 'ArrowRight') navigateProject(1);
   if (e.key === 'ArrowLeft') navigateProject(-1);
+
+  // Focus trap — keep Tab cycling within the dialog
+  if (e.key === 'Tab') {
+    const focusables = lb.querySelectorAll('button, a[href]');
+    if (!focusables.length) return;
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  }
 });
 
 /* ============================================================
@@ -436,4 +632,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // Open lightbox on page load if URL contains a #project/ hash (e.g. shared link)
+  const match = location.hash.match(/^#project\/(.+)$/);
+  if (match) {
+    openLightbox(match[1], false); // don't double-push history
+  }
 });

@@ -8,11 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
   <link rel="stylesheet" href="css/style.css" />
+  <noscript><style>.reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
 </head>
 <body>
 
-  <a href="#projects" class="skip-link">Skip to main content</a>
+  <a href="#main" class="skip-link">Skip to main content</a>
 
   <!-- NAV -->
   <nav class="nav" id="nav">
@@ -28,6 +30,8 @@
       <li><a href="#contact" class="nav__cta">Get in Touch</a></li>
     </ul>
   </nav>
+
+  <main id="main" tabindex="-1">
 
   <!-- HERO -->
   <section class="hero" id="home">
@@ -76,9 +80,19 @@
             <span class="stat__number">20+</span>
             <span class="stat__label">Industry Awards</span>
           </div>
-          <div class="about__stat reveal">
-            <span class="stat__number">4</span>
-            <span class="stat__label">Countries Worked</span>
+
+          <div class="about__certs reveal">
+            <p class="about__certs-label">Education</p>
+            <ul>
+              <li>Bachelor of Digital Media Design<br/><span class="about__certs-sub">Raffles Design Institute, 2007</span></li>
+            </ul>
+          </div>
+          <div class="about__certs reveal">
+            <p class="about__certs-label">Mentorship</p>
+            <ul>
+              <li>RMIT Mentorship Program</li>
+              <li>ADPList</li>
+            </ul>
           </div>
           <div class="about__certs reveal">
             <p class="about__certs-label">Certifications</p>
@@ -241,7 +255,7 @@
 
         <a href="https://www.behance.net/gallery/114298127/AGL-Business-Portal-UX-Research-Design" class="project-card reveal" data-project="agl-business-portal" tabindex="0">
           <div class="project-card__img">
-            <img src="images/agl-business-portal/01.jpg" alt="AGL Business Portal" loading="lazy" />
+            <img src="images/agl-business-portal/01.jpg" alt="AGL for Business cover with tablet showing portal dashboard of Telstra sites, balances and site statuses" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">UX Research &amp; Design</div>
@@ -254,7 +268,7 @@
 
         <a href="https://www.behance.net/gallery/90085389/AGL-Energy-Solar-Energy-Usage-Monitoring-UX" class="project-card reveal" data-project="agl-solar" tabindex="0">
           <div class="project-card__img">
-            <img src="images/agl-solar/01.jpg" alt="AGL Solar Energy Usage Monitoring" loading="lazy" />
+            <img src="images/agl-solar/01.jpg" alt="Energy Usage Monitoring cover with phone and laptop showing solar and electricity usage dashboards" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">UX / Native App</div>
@@ -267,7 +281,7 @@
 
         <a href="https://www.behance.net/gallery/79878165/AGL-Peak-Energy-Rewards-Demand-Response-Program" class="project-card reveal" data-project="agl-peak-energy" tabindex="0">
           <div class="project-card__img">
-            <img src="images/agl-peak-energy/01.jpg" alt="AGL Peak Energy Rewards" loading="lazy" />
+            <img src="images/agl-peak-energy/01.jpg" alt="Peak Energy Rewards cover with AGL logo and flat illustration of a city skyline in blues and teal" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">Product Design</div>
@@ -280,7 +294,7 @@
 
         <a href="https://www.behance.net/gallery/72553967/AGL-Voice-Assistant-Amazon-Alexa-Google-Assistant" class="project-card reveal" data-project="agl-voice" tabindex="0">
           <div class="project-card__img">
-            <img src="images/agl-voice/01.jpg" alt="AGL Voice Assistant" loading="lazy" />
+            <img src="images/agl-voice/01.jpg" alt="AGL Voice Skill cover showing half Amazon Echo, half Google Home with Alexa and Assistant logos" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">Voice UI / VUI</div>
@@ -293,7 +307,7 @@
 
         <a href="https://www.behance.net/gallery/168612637/Xero-Uplifting-Role-data-quality-Design-Sprint" class="project-card reveal" data-project="xero-design-sprint" tabindex="0">
           <div class="project-card__img">
-            <img src="images/xero-design-sprint/01.jpg" alt="Xero Role Data Quality" loading="lazy" />
+            <img src="images/xero-design-sprint/01.jpg" alt="Cover slide: Forming Xero's Small Business Profile case study, Part 1 – Capturing Role in Business design sprint" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">Design Sprint</div>
@@ -306,7 +320,7 @@
 
         <a href="https://www.behance.net/gallery/22255995/Honda-Australia-Website-Re-Design" class="project-card reveal" data-project="honda" tabindex="0">
           <div class="project-card__img">
-            <img src="images/honda/01.png" alt="Honda Australia Website Redesign" loading="lazy" />
+            <img src="images/honda/01.png" alt="Honda logo cover slide introducing the Honda Australia website redesign case study" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">Web Redesign</div>
@@ -319,7 +333,7 @@
 
         <a href="https://www.behance.net/gallery/67594139/One-Membership-Carsales-Payment-Gateway-UX-Design" class="project-card reveal" data-project="carsales-payment-gateway" tabindex="0">
           <div class="project-card__img">
-            <img src="images/carsales-payment-gateway/01.jpg" alt="Carsales One Membership" loading="lazy" />
+            <img src="images/carsales-payment-gateway/01.jpg" alt="Hero banner for carsales One Membership Part 2, Payment Platform, with a white hatchback under aurora skies" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">UX / Payment Flow</div>
@@ -332,7 +346,7 @@
 
         <a href="https://www.behance.net/gallery/58022077/One-Membership-Manage-Ads-UX-Design-overhaul" class="project-card reveal" data-project="carsales-manage-ads" tabindex="0">
           <div class="project-card__img">
-            <img src="images/carsales-manage-ads/01.jpg" alt="Carsales Manage Ads" loading="lazy" />
+            <img src="images/carsales-manage-ads/01.jpg" alt="Hero banner for carsales One Membership Part 1, Manage Ad, with a sports car's tail lights on a rainy city street" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">UX Overhaul</div>
@@ -345,7 +359,7 @@
 
         <a href="https://www.behance.net/gallery/57596069/RedBook-Mechanic-Inspection-Application" class="project-card reveal" data-project="redbook" tabindex="0">
           <div class="project-card__img">
-            <img src="images/redbook/01.jpg" alt="RedBook Mechanic Inspection" loading="lazy" />
+            <img src="images/redbook/01.jpg" alt="RedBook Mechanic Inspections cover: iPad app for mobile car inspections surrounded by mechanic's tools" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">Mobile App / UX</div>
@@ -358,7 +372,7 @@
 
         <a href="https://www.behance.net/gallery/54167209/Great-Barrier-Reef-Foundation-Website-Concept" class="project-card reveal" data-project="great-barrier-reef" tabindex="0">
           <div class="project-card__img">
-            <img src="images/great-barrier-reef/01.jpg" alt="Great Barrier Reef Foundation" loading="lazy" />
+            <img src="images/great-barrier-reef/01.jpg" alt="Great Barrier Reef Foundation website concept: long-scroll pages with coral and marine life photography on tablet and phone" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">Website Concept</div>
@@ -371,7 +385,7 @@
 
         <a href="https://www.behance.net/gallery/67593101/After5-Parter-with-creative-folks-Concept" class="project-card reveal" data-project="after5" tabindex="0">
           <div class="project-card__img">
-            <img src="images/after5/01.jpg" alt="After5 Concept" loading="lazy" />
+            <img src="images/after5/01.jpg" alt="After5 title slide on black: concept for partnering with like-minded folks, a design exploration" loading="lazy" />
           </div>
           <div class="project-card__body">
             <div class="project-card__tag">Concept / Product</div>
@@ -476,8 +490,9 @@
         <span class="section__label reveal">Contact</span>
         <h2 class="contact__heading reveal">Let's make something<br/>worth remembering.</h2>
         <p class="contact__sub reveal">Open to senior product design roles, contract work, and mentoring opportunities.</p>
-        <a href="mailto:matsuda.kota@gmail.com" class="contact__email reveal">matsuda.kota@gmail.com</a>
         <div class="contact__links reveal">
+          <a href="mailto:matsuda.kota@gmail.com">Email me</a>
+          <span class="contact__sep">·</span>
           <a href="https://www.linkedin.com/in/kotamatsuda" target="_blank" rel="noopener">LinkedIn</a>
           <span class="contact__sep">·</span>
           <a href="https://www.behance.net/kmatsuda" target="_blank" rel="noopener">Behance</a>
@@ -485,6 +500,8 @@
       </div>
     </div>
   </section>
+
+  </main>
 
   <footer class="footer">
     <div class="container">
