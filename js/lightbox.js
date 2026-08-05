@@ -3,6 +3,41 @@
    ============================================================ */
 const PROJECTS = [
   {
+    id: 'electrify-now',
+    alts: [
+      "Electrify Now by AGL cover slide with a phone mockup of the product selection screen listing solar panels, home battery, induction cooktop and electric vehicle",
+      "My process diagram: a double-diamond spanning Problem Discovery through Commercial Availability, with Solution Discovery, Concept Validation, Design & Development and Early Access Programme milestones",
+      "My role and contribution slide: designing the authenticated experience, integrating a centralised data model, optimising for lead conversion, and continuous usability research",
+      "My remit flow diagram mapping the journey from Electrification Hub through Electrify Now, Customer Profile, Savings Report and eNow Connect to referral partners and AGL experts",
+      "Complications slide covering three challenges: one calculation engine across two platforms, designing around multiple design systems, and multiple reporting lines to manage",
+      "Solution discovery slide showing research synthesis boards, a centralised home profile diagram unifying Electrify Now, Energy Insights and Energy Coach, and an example data capture model",
+      "Concept validation slide with research team photos, participant interview transcripts and a user journey map annotated with findings",
+      "Design & development slide showing the Electrify Now flow across mobile screens, from product selection through solar and battery estimates to speaking with an expert",
+      "Results slide with visitor and conversion charts showing 66% success rate and 132% better lead conversion, plus press coverage of an award win and 140,000-customer milestone",
+      "Full mobile flow of the final Electrify Now product, from landing page through product and vehicle selection, personalised savings estimates and installer quote request"
+    ],
+    title: 'Electrify Now',
+    subtitle: 'Design / Research / Optimisation',
+    company: 'AGL Energy',
+    year: '2024 — 2025',
+    behance: 'https://www.behance.net/kmatsuda',
+    tools: ['Figma', 'FigJam'],
+    tags: ['Electrification', 'Calculator', 'Web', 'Mobile', 'Energy'],
+    description: 'AGL launched Electrify Now as a pilot in mid-2024, helping customers understand accurate bill savings from electrifying their home based on their real energy data. I led the design, research and CX strategy to take the pilot from MVP to a productionised tool — aligning it with a centralised home-profile data model shared across Electrify Now, Energy Insights and Energy Coach, and continuously optimising the experience through usability testing. The digital channel now converts 132% better than other channels, with over 140,000 customers using the tool and an Australian Financial Review Customer Champions award in 2024.',
+    images: [
+      'images/electrify-now/01.jpg',
+      'images/electrify-now/02.jpg',
+      'images/electrify-now/03.jpg',
+      'images/electrify-now/04.jpg',
+      'images/electrify-now/05.jpg',
+      'images/electrify-now/06.jpg',
+      'images/electrify-now/07.jpg',
+      'images/electrify-now/08.jpg',
+      'images/electrify-now/09.jpg',
+      'images/electrify-now/10.jpg',
+    ]
+  },
+  {
     id: 'agl-business-portal',
     videos: [
       { after: 7, id: 'aOxVQ08zkYA', title: 'AGL for Business portal prototype walkthrough' },
