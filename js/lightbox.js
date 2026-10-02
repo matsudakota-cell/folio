@@ -223,6 +223,14 @@ const PROJECTS = [
   },
   {
     id: 'honda',
+    // Original Behance canvas: 600px transparent modules over a 725px background.
+    layeredLayout: {
+      width: 740, backgroundWidth: 725, backgroundHeight: 10681,
+      background: 'images/honda/background.jpg', color: '#e9e7e7',
+      dimensions: [[600,866],[600,2512],[600,526],[600,637],[600,1162],
+        [600,412],[600,548],[600,386],[600,803],[600,584],[600,438],
+        [600,571],[600,987],[601,189]]
+    },
     alts: [
       "Honda logo cover slide introducing the Honda Australia website redesign case study",
       "Style guide showing Univers typography, red-black-grey colour palette and custom red car iconography",
@@ -369,7 +377,8 @@ const PROJECTS = [
       "Section heading slide: tested prototype and initial UI",
       "Visual design concept on iPad Minis: accessibility, dynamic weather, iOS patterns and send-to-phone feature",
       "iPad screens showing standardised star ratings, generated comments, flexible steps and appointment map view",
-      "Closing slide on an iPad corner: thanks for viewing, additional screens"
+      "Closing slide on an iPad corner: thanks for viewing, additional screens",
+      "Animated walkthrough of additional RedBook inspection app screens"
     ],
     title: 'Mechanic Inspection Application',
     subtitle: 'Mobile App / UX',
@@ -388,6 +397,7 @@ const PROJECTS = [
       'images/redbook/06.jpg',
       'images/redbook/07.jpg',
       'images/redbook/08.jpg',
+      'images/redbook/09-animation.gif',
     ]
   },
   {
@@ -417,6 +427,7 @@ const PROJECTS = [
       "Three bold black-and-pink mobile screens: home with post/find project actions, browse feed and user profile",
       "Mobile screens for a full project post, a 140-character reply pitch, and a prompt to post your first project",
       "Colour-coded After5 role badges for artist, animator, editor, designer, developer, photographer and more",
+      "Animated After5 mobile interface demonstration",
       "Responsive After5 browse screen across laptop, tablet and phone with role filter and highlighted project blurb",
       "After5 applicant reply screens shown on a tablet inbox and a phone on a marble surface",
       "Closing slide on black: After5 conceptual design exercise, thanks for viewing"
@@ -437,6 +448,7 @@ const PROJECTS = [
       'images/after5/05.jpg',
       'images/after5/06.jpg',
       'images/after5/07.jpg',
+      'images/after5/08-animation.gif',
       'images/after5/08.jpg',
       'images/after5/09.jpg',
       'images/after5/10.jpg',
@@ -591,10 +603,24 @@ function renderProject(idx) {
 
   // Images
   const imagesEl = lb.querySelector('.lb__images');
+  const layout = p.layeredLayout;
+  imagesEl.classList.toggle('lb__images--layered', Boolean(layout));
+  // Clear project-specific styling when navigating to another case study.
+  imagesEl.removeAttribute('style');
+  if (layout) {
+    imagesEl.style.maxWidth = `${layout.width}px`;
+    imagesEl.style.backgroundColor = layout.color;
+    imagesEl.style.backgroundImage = `url("${layout.background}")`;
+    imagesEl.style.backgroundSize = `${layout.backgroundWidth / layout.width * 100}% auto`;
+    imagesEl.style.aspectRatio = `${layout.width} / ${layout.backgroundHeight}`;
+  }
   imagesEl.innerHTML = p.images.map((src, i) => {
+    const dimensions = layout?.dimensions[i];
+    const size = dimensions ? ` width="${dimensions[0]}" height="${dimensions[1]}"` : '';
+    const style = dimensions ? ` style="width: ${dimensions[0] / layout.width * 100}%"` : '';
     const img = `
-    <div class="lb__img-wrap">
-      <img src="${src}" alt="${(p.alts && p.alts[i]) || `${p.title} — image ${i + 1}`}" loading="${i === 0 ? 'eager' : 'lazy'}" />
+    <div class="lb__img-wrap"${style}>
+      <img src="${src}"${size} alt="${(p.alts && p.alts[i]) || `${p.title} — image ${i + 1}`}" loading="${i === 0 ? 'eager' : 'lazy'}" />
     </div>`;
     const vids = (p.videos || [])
       .filter(v => v.after === i + 1)

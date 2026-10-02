@@ -1000,6 +1000,20 @@ a.award-item__name:hover { color: var(--color-accent-text); }
   transition: opacity 0.3s ease-out;
 }
 
+/* Scale legacy background and foreground artwork together, preserving alignment. */
+.lb__images--layered {
+  width: 100%;
+  margin-inline: auto;
+  flex-shrink: 0;
+  align-items: center;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.lb__images--layered .lb__img-wrap {
+  background: transparent;
+  flex-shrink: 0;
+}
+
 .lb__video-wrap {
   position: relative;
   width: 100%;
